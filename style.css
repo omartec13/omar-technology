@@ -190,6 +190,8 @@ object-fit:cover;
 footer
 {
   background-image: url(navbg.png);
+  width: 100%;
+  
 }
 .goto
 {
@@ -200,4 +202,82 @@ footer
     color: #050913;
     font-weight: bolder;
     font-size: 1em;
+}
+/* --- إعدادات عامة للهيدر عشان يفضل أفقي وصغير زي الكمبيوتر --- */
+header {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    display: flex !important; 
+    justify-content: space-between !important; 
+    align-items: center !important;
+    padding: 5px 15px !important; 
+    height: 60px !important; 
+}
+
+/* ضبط حجم اللوجو جوه الهيدر */
+header img {
+    height: 40px !important; 
+    width: auto !important;
+}
+
+/* إجبار القائمة والروابط تفضل جنب بعضها في سطر واحد */
+header nav {
+    display: flex !important;
+    flex-direction: row !important; 
+    gap: 10px !important; 
+    align-items: center !important;
+    flex-wrap: nowrap !important; /* ممنوع تنزل سطر جديد */
+    overflow-x: auto; /* عشان لو الشاشة ضيقة جداً تقدر تحركهم بصباعك يمين وشمال */
+}
+
+/* إخفاء شريط التمرير عشان الشكل يكون نضيف */
+header nav::-webkit-scrollbar {
+    display: none;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px !important; /* حجم خط مناسب ومظبوط للموبايل */
+    font-weight: bold;
+    white-space: nowrap !important; /* يمنع الكلمة تتقسم نصين */
+}
+
+/* --- ضبط الـ Features (السلايد شو) عشان الصور ما تمطش --- */
+#features {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.slideshow {
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.slide {
+    width: 100% !important;
+    height: 350px !important; 
+    object-fit: contain !important; /* الخاصية دي بتخلي الصورة تظهر كاملة ومن غير ما تمط أو تتقطع */
+    background-color: #222; /* خلفية غامقة عشان لو الصورة أبعادها مختلفة */
+}
+
+/* ضبط المقاسات للموبايلات الصغيرة جداً */
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 11px !important;
+        gap: 6px !important;
+    }
+    .slide {
+        height: 280px !important;
+    }
 }
