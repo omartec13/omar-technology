@@ -1,0 +1,183 @@
+.logo
+{
+    background-color: rgb(18, 113, 236);
+    border-radius: 20px;
+}
+.logo
+{
+    border-radius: 20px;
+}
+nav ul
+{
+    background-color:orangered;
+    border-width: 6px;
+    border-radius: 20px;
+    border-color: black;
+    padding: 15px;
+}
+nav ul li
+{
+    list-style-type: none;
+    margin: 100px;
+    display: inline;
+}
+nav ul li a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.youtube
+{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+h1
+{
+    text-align: center;
+    color: blue;
+}
+.welcome
+{
+    color: orangered;
+}
+p
+{
+    text-align: center;
+    color: aliceblue;
+}
+h3
+{
+    text-align: center;
+}
+.logo2
+{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+
+}
+.certificate
+{
+    border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    background-color: rgba(190, 170, 131, 0.615);
+}
+.training
+{
+   border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    background-color: rgba(148, 227, 255, 0.647);  
+}
+.ages{
+     border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    background-color: rgba(190, 170, 131, 0.615);
+}
+.vision
+{
+     border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    background-color: rgba(148, 227, 255, 0.647);  
+}
+.bestlearning
+{
+      border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.trainer
+{
+      border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.agestage
+{
+      border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.saudivision
+{
+      border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.money
+{
+    
+      border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.WhatsApp
+{
+
+      border-radius: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.blue
+{
+    background-color: blue;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+.time
+{
+     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%; 
+}
+.monthly
+{
+      border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+h2
+{
+    color: aliceblue;
+    text-align: center;
+}
+.contactus
+{
+    background-color: blue;
+}
+
